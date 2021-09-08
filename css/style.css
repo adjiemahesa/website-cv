@@ -1,0 +1,123 @@
+
+
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.box-seperate{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.skill{
+    float: left;
+    width: 20%;
+    border: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.skill h4{
+    text-align: center;
+}
+
+.list{
+    float: left;
+    width: 20%;
+    border: 1px solid #555;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.list h4{
+    text-align: center;
+}
+
+#education{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#main-header{
+    background-color:#fff;
+    color: #555;
+    font-size: 20px;
+}
+
+#navbar{
+    background-color:dimgrey;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url('../img/12-Light.jpg');
+    min-height: 300px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#about{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    padding-top: 20px;
+}
+
+#main-footer {
+    background: dimgrey;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    min-height: 60px;
+}
